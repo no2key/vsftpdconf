@@ -34,6 +34,7 @@ function find_user_dir()
 		return 1
 	fi
 }
+
 function change_passwd()
 {
 	find_user $1
@@ -93,7 +94,6 @@ function del_user()
 		exit 1
 	fi
 }
-
 
 function make_db()
 {
